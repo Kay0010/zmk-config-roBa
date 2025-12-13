@@ -92,7 +92,7 @@
             bindings = <
 &kp Q      &kp W       &kp E         &kp R      &kp T                                             &kp Y                         &kp U  &lt 5 I    &kp O      &kp P
 &kp A      &kp S       &kp D         &kp F      &kp G        &trans                &lt 5 RC(C)    &kp H                         &kp J  &kp K      &kp L      &kp ENTER
-&kp Z      &kp X       &kp C         &kp V      &kp B        &trans                &lt 6 RC(V)    &kp N                         &kp M  &mkp LCLK  &mkp RCLK  &mt RIGHT_SHIFT MINUS
+&kp Z      &kp X       &kp C         &kp V      &kp B        &kp LC(LS(S))         &lt 6 RC(V)    &kp N                         &kp M  &mkp LCLK  &mkp RCLK  &mt RIGHT_SHIFT MINUS
 &kp COMMA  &kp PERIOD  &kp LEFT_WIN  &lt 1 TAB  &lt 2 SPACE  &lt 3 LANGUAGE_2      &kp BACKSPACE  &mt RIGHT_CONTROL LANGUAGE_1                               &kp ESCAPE
             >;
 
@@ -112,7 +112,7 @@
             bindings = <
 &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans                                   &trans  &kp HOME        &kp UP_ARROW    &kp END          &trans
 &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans      &msc SCRL_UP         &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &mmv MOVE_DOWN       &trans  &trans          &mkp LCLK       &mkp RCLK        &trans
+&trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &msc SCRL_DOWN       &trans  &trans          &mkp LCLK       &mkp RCLK        &trans
 &trans        &trans        &trans        &trans        &trans  &trans      &mt RCTRL BACKSPACE  &trans                                                   &trans
             >;
         };
