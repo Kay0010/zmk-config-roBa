@@ -10,6 +10,7 @@
 
 &trackball {
     //automouse-layer = <4>;
+
     scroll-layers = <3>;
 
     // arrows {
@@ -80,10 +81,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W       &kp E         &kp R                 &kp T                                             &kp Y                 &kp U  &kp I      &kp O      &kp P
-&kp A             &kp S       &kp D         &kp F                 &kp G        &kp LS(LG(S))         &kp LC(LS(S))  &kp H                 &kp J  &kp K      &kp L      &kp ENTER
-&mt LEFT_SHIFT Z  &kp X       &kp C         &kp V                 &kp B        &kp LEFT_ALT          &kp SEMICOLON  &kp N                 &kp M  &mkp LCLK  &mkp RCLK  &kp MINUS
-&kp COMMA         &kp PERIOD  &kp LEFT_WIN  &lt_to_layer_0 2 TAB  &lt 1 SPACE  &lt 3 LANGUAGE_2      &kp BACKSPACE  &mt RCTRL LANGUAGE_1                               &kp ESC
+&kp Q             &kp W       &kp E         &kp R                 &kp T                                               &kp Y                 &kp U  &kp I      &kp O      &kp P
+&kp A             &kp S       &kp D         &kp F                 &kp G        &kp LS(LG(S))         &kp LC(LS(S))    &kp H                 &kp J  &kp K      &kp L      &kp ENTER
+&mt LEFT_SHIFT Z  &kp X       &kp C         &kp V                 &kp B        &kp LEFT_ALT          &lt 6 LS(LG(S))  &kp N                 &kp M  &mkp LCLK  &mkp RCLK  &kp MINUS
+&kp COMMA         &kp PERIOD  &kp LEFT_WIN  &lt_to_layer_0 2 TAB  &lt 1 SPACE  &lt 3 LANGUAGE_2      &kp BACKSPACE    &mt RCTRL LANGUAGE_1                               &kp ESC
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
